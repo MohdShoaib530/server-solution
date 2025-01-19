@@ -21,7 +21,7 @@ const userSchema = new mongoose.Schema(
         'Please enter a valid email'
       ]
     },
-    name: {
+    password: {
       type: String,
       required: [true, 'password is required'],
       minLength: [8, 'password must be at least 8 characters'],
